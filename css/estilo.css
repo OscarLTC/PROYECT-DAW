@@ -1,169 +1,66 @@
-.pasteles{
-    width: 1000px;
-    position: absolute; 
-    padding: 30px 50px 20px; 
-    background-color: #ffd;
-    margin-left: 10px;
-    border-radius: 5px;
-}
-
-.uwu{
-    padding: 10px;
-    margin: 10px;
-    border-radius: 3px;
-    background-color: #f2cc8f;
-} 
-
-.uwu p{
-    text-align: justify;
-}
-
-.tortitas{
-    width: 270px; 
-    height: 180px; 
-    border-radius: 10px;
-}
-
-.titulos{
+.card-body h3{
     font-family: 'Supermercado One', cursive;
-    margin-top: 10px; 
-    font-size: 20px; 
-    font-weight: bold;
 }
 
-.carrito{
-    width: 100%;
-}
-
-.carritoCompras{
-    background: #faedcd;
-    text-align: center;
-    padding: 0;
-    display: block;
-    width: 450px;
-    height: 550px;
-    position: relative;
-    left: 1035px;
-    bottom: 15px;
-    margin: 20px 0;
-    border-radius: 10px;
-    
-}
-
-.carritoCompras h3{
-    padding-top: 10px;
-}
-
-
-.carritoCompras .entrega{
-    position: absolute;
-    top: 583px;
-    right: 0px;
-    width: 100%;
-    height: 65px;
-}
-
-.entrega label{
-    font-size: 30px;
-}
-
-
-.carritoCompras .comprar{
-    position: absolute;
-    top: 680px;
-    right: 0px;
-    width: 100%;
-    height: 70px;
-    font-size: 30px;
-}
-
-.pie{
-    background: #9c6644;
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
-    padding-bottom: 10px;
-    position: absolute;
-    margin: 10px;
-    width: 1500px;
-    height: 110px;
-    top: 880px;
-}
-
-
-.pie .dr{
-    position: absolute;
-    width: 30%;
-    margin: 15px;
-    margin-left: 50px;
-}
-
-.pie .dr p{
-    font-size: 25px;
+footer h3{
     color: white;
 }
-.pie .dr a{
-    position: inherit;
+
+footer a{
     color: rgb(194, 189, 189);
-    top: 40px;
+    text-decoration: none;
 }
 
-.pie .rrss{
-    position: absolute;
-    left: 33%;
-    width: 30%;
-    margin: 15px;
-} 
-
-.pie .rrss p{
-    font-size: 25px;
-    color: white;
-    text-align: center;
-}
-
-.pie .rrss .wasa{
-    position: absolute;
-    top: 38px;
-    left: 150px;
-
-
-}
-.pie .rrss .feiz{
-    position: absolute;
-    top:  38px;
-    left: 225px;
-
-}
-.pie .rrss .insta{
-    position: absolute;
-    top: 38px;
-    left: 300px;
-}   
-
-.pie .contacto{
-    position: absolute;
-    left: 69%;
-    width: 30%;
-    margin: 15px;
-}  
-
-.pie .contacto p{
-    text-align: center;
-    font-size: 25px;
+svg{
     color: white;
 }
 
-.pie .contacto li{
+
+
+
+div .tercero ul{
+    padding-top: 10px;
     color: white;
     list-style: none;
 }
 
-.tele{
-    position: absolute;
-    left: 150px;
-    top:35px
-}  
+@media screen and (min-width: 991px){
+    div .tercero h3{
+        padding-left: 6%;
+    }
+}
 
-.correo{
-    position: absolute;
-    left: 150px;
+@media screen and (max-width: 991px){
+
+    div .primero{
+        text-align: center;
+        border-bottom: 1px solid #dee2e6;
+        padding-bottom: 20px;
+    }
+
+    div .segundo{
+        padding-top: 5px;
+        padding-bottom: 35px;
+        border-bottom: 1px solid #dee2e6;
+    }
+
+    div .tercero h3{
+        text-align: center;
+    }
+
+    div .tercero ul{
+        padding-left: 30%;
+    }
+}
+
+@media screen and (max-width: 480px){
+    div .tercero ul{
+        padding-left: 20%;
+    }
+}
+
+@media screen and (max-width: 400px){
+    div .tercero ul{
+        padding-left: 15%;
+    }
 }
