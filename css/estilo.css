@@ -32,6 +32,15 @@ div .tercero ul{
 
 @media screen and (max-width: 991px){
 
+    .card-body h3{
+        font-size: 20px;
+    }
+
+    .card-body p{
+        font-size: 15px;
+    }
+    
+
     div .primero{
         text-align: center;
         border-bottom: 1px solid #dee2e6;
@@ -50,6 +59,17 @@ div .tercero ul{
 
     div .tercero ul{
         padding-left: 30%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+
+    .card-body h3{
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .card-body p{
+        font-size: 20px;
     }
 }
 
