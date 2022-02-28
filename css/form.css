@@ -28,12 +28,19 @@ body {
     z-index: 2;
 }
 
-.form-signin input[type="text"] {
+.form-signin .name-user {
     margin-bottom: -1px;
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
     background: #faedcd
 }
+
+.form-signin .mid{
+    margin-bottom: -1px;
+    border-radius: 0;
+    background: #faedcd
+}
+
 
 .form-signin input[type="password"] {
     margin-bottom: 10px;

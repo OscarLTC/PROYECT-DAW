@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Login</title>
+    <title>Registro</title>
     <link rel="icon" href="../images/icono.ico">
     <link rel="stylesheet" href="../css/bootstrap.css">
     <link rel="stylesheet" href="../css/form.css">
@@ -21,11 +21,23 @@
             <img class="mb-5" src="../images/logoForm.png" alt="" width="150" height="150">
 
             <div class="form-floating">
-                <input type="text" class="form-control name-user" required autocomplete="off" id="floatingInput" placeholder="User">
-                <label for="floatingInput" >Usuario</label>
+                <input type="text" class="form-control name-user" required autocomplete="off" id="floatingInput" placeholder="Usuario">
+                <label for="floatingInput" >Nombre de Usuario</label>
             </div>
             <div class="form-floating">
-                <input type="password" class="form-control" required  id="floatingPassword" placeholder="Password">
+                <input type="text" class="form-control mid" required autocomplete="off" id="floatingInput" placeholder="Telefono">
+                <label for="floatingInput" >Telefono</label>
+            </div>
+            <div class="form-floating">
+                <input type="text" class="form-control mid" required autocomplete="off" id="floatingInput" placeholder="Direccion">
+                <label for="floatingInput" >Direccion</label>
+            </div>
+            <div class="form-floating">
+                <input type="email" class="form-control mid" required autocomplete="off" id="floatingInput" placeholder="Email">
+                <label for="floatingInput" >Email</label>
+            </div>
+            <div class="form-floating">
+                <input type="password" class="form-control" required id="floatingPassword" placeholder="Contraseña">
                 <label for="floatingPassword" >Contraseña</label>
             </div>
 
@@ -33,7 +45,7 @@
                 <input class="form-check-input bg-warning" type="checkbox" role="switch" id="flexSwitchCheckDefault">
                 <label class="form-check-label" for="flexSwitchCheckDefault">Recordar Contraseña</label>
             </div>
-            <input src="../index.html" class="w-100 btn btn-lg btn-outline-dark"  type="submit" value="Iniciar Sesion">
+            <button href="../index.html" class="w-100 btn btn-lg btn-outline-dark"  type="submit">Registrarse</button>
             <p class="mt-5 mb-3 text-muted">@PasteleriaMilagros</p>
         </form>
     </main>
